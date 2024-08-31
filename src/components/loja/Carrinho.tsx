@@ -23,7 +23,7 @@ export default function Carrinho() {
 
                 </div>
                 {itens.length > 0 && (
-                    <button className=" last:flex gap-2 justify-center w-28 btn-danger" onClick={limpar}>
+                    <button className="flex gap-2 justify-center w-28 btn-danger" onClick={limpar}>
                         <IconX /> Limpar
                     </button>
                 )}
